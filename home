@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<style>
+.one {
+background-color: aa55ff;
+}
+
+.two {
+background-color: #696773;
+}
+
+.three {
+background-color: #eff1f3;
+}
+
+.four {
+background-color: #272727;
+}
+
+.five {
+background-color: #fed766;
+}
+
+a:link {
+text-decoration: none;
+color: pink;
+}
+
+a:visited {}
+
+a:hover {
+color: cyan;
+}
+
+a:active{}
+
+ul {
+background-color: purple;
+position: fixed;
+top: -16px;
+left: -8px;
+height: 50px;
+width: 100%;
+z-index: 2;
+}
+
+li {
+display: inline;
+font-size: 22px;
+font-family: "bahnschrift";
+margin: 20px 100px 0px 100px;
+position: relative;
+top: 12px;
+}
+
+div {
+height: 400px;
+width: 100%;
+position: relative;
+right: 8px;
+}
+
+img {
+animation-name: img;
+animation-duration: 2.5s;
+animation-fill-mode: forwards;
+height: 300px;
+position: relative;
+top: 50px;
+}
+
+@keyframes img {
+0%{
+opacity: 0;
+left: 0%;
+}
+100% {
+opacity: 1;
+left: 30%;
+}
+}
+
+#anim {
+animation-timing-function: ease-out;
+}
+</style>
+
+<head>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+<nav>
+<ul>
+<li><a href=#>Home</a></li>
+<li><a href=#>News</a></li>
+<li><a href=#>About</a></li>
+<li><a href=#>Contact</a></li>
+</ul>
+</nav>
+<div class="one">
+<img src="Nota Fiscal.jpg" id="anim">
+</div>
+<div class="two"><img src="Nota Fiscal.jpg"></div>
+<div class="three"><img src="Nota Fiscal.jpg"></div>
+<div class="four"><img src="Nota Fiscal.jpg"></div>
+<div class="five"><img src="Nota Fiscal.jpg"></div>
+</body>
+</html>
